@@ -1,10 +1,19 @@
 var x = document.getElementById("audio1");
 var y = document.getElementById("audio2");
-function play1() {
+var z = document.getElementById("audio3");
+var w = document.getElementById("audio4");
+
+function play1a() {
   x.play();
 }
-function play2() {
+function play1() {
     y.play();
+}
+function play2a() {
+  z.play();
+}
+function play2() {
+    w.play();
 }
 function rtrn()    {
     
